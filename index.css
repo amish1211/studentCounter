@@ -1,0 +1,53 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2xhc3Nyb29tfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+   font-family: 'Edu TAS Beginner', cursive;
+    font-weight: bold;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container {
+	max-width:800px;
+	margin: 0 auto;
+	background-color:skyblue;
+	padding:20px;
+	border-radius:10px;
+	border:2px solid black;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#fff;
+    font-weight: bold;
+    margin-right:10px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+   
+}
+
+button img {
+	height:20px;
+}
+
+button:hover {
+	opacity:0.8;
+}
+
+
+
